@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static(__dirname + "/public/"));
 mailchimp.setConfig({
   //*****************************ENTER YOUR API KEY HERE******************************
-  apiKey: "8f02d30794fe1ece3aec6470af2ce2e3-us1",
+  apiKey: "",
   //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
   server: "us1"
 });
